@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #b3c2c5; /* fondo de la pagina*/
+} 
+header { 
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    background-color: #2908a2;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /* encabezado*/
+} 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+} /* para alinear el menu*/
+
+.nav-list li {
+    margin: 0 15px;
+}/* para separar el menu*/
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in;
+}/* para cambiar el color de las letras del menu*/
+
+.nav-list li a:hover {
+    color:  #7e0917;
+}/* para cambiar el color de las letras del menu con el cursor*/
+
+
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.content {
+    font-family: "Agdasima", sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;/* primer conteiner de la introduccion*/
+} 
+
+
+.content h2 {
+    margin-bottom: 20px;
+}
+.content img {
+    width: 700%;
+    max-width: 500px;
+    margin-top: 20px;
+} /* imagenm de la intro*/
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(208, 213, 222);
+    padding: 20px;
+    border: 6px solid #546b74;
+} /* para los contenedores de los personajes*/
+
+.img-left {
+    width: 250px; 
+    height: 250px; 
+    margin-right: 20px;
+    border: 2px solid #225a6e;
+    border-radius: 20px;
+} /* para las imagenes de los personajes*/
+
+.styled-paragraph {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #333;
+    background-color: #84b0bf;
+    line-height: 1.6;
+    max-width: 600px;
+} /* para la descripcion de las imagenes*/
+
+
+
+
+
+
+
+
+section{
+    text-align: center;
+}
+
+
+
+.subscription {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    background-color: #7994a2;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .subscription-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .subscription-form label {
+    text-align: left;
+  }
+  
+  .subscription-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .subscription-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #2b3971;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+
+
+footer {
+    background-color: #2908a2;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+  .flex-contenedor {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  iframe{
+    width: 700%;
+    max-width: 450px;
+    height: 300px;
+    max-height: 300;
+    margin-top: 20px;
+
+
+
+
+  }
+  .product {
+    display: inline-block;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+    margin: 1.5%;
+    padding: 15px;
+    background-color: rgb(158, 167, 195);
+    border: 3px solid #4f4fee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    vertical-align: top; /* Alineación vertical */
+  }
+  .product img {
+    
+    height: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .nombre {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  .precio {
+    color: rgb(13, 62, 13);
+    font-size: 1.1em;
+  }
+  .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #193d64;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .boton:hover {
+    background-color: #090737;
+  }
+
+
+
+
+  /* Responsividad */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background: #d1cccc;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 150px;
+        border-radius: 5px;
+    }
+    .nav-list.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .content img {
+        max-width: 100%;
+    }
+}
